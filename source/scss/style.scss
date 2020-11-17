@@ -293,18 +293,12 @@ body {
     margin: 0px 10px 30px 10px;
   }
   &__item {
-    cursor: pointer;
     min-width: 225px;
     height: 300px;
     box-shadow: 0px 5px 5px 0px rgba(112, 112, 112, 0.5);
     border: 1px solid lighten($text, 40%);
     transition: all 0.3s ease 0s;
     background-position: 0 0;
-    &:hover {
-      border: 1px solid $white;
-      box-shadow: 0px 0px 15px 0px $text;
-      transform: translateY(-2px);
-    }
   }
 
   &__title {
@@ -317,7 +311,7 @@ body {
   }
   &__techno {
     line-height: 20px;
-    min-height: 50px;
+    min-height: 80px;
   }
 }
 
