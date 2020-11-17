@@ -300,7 +300,10 @@ body {
     border: 1px solid lighten($text, 40%);
     transition: all 0.3s ease 0s;
     background-position: 0 0;
-    img {
+    &:hover {
+      border: 1px solid $white;
+      box-shadow: 0px 0px 15px 0px $text;
+      transform: translateY(-2px);
     }
   }
 
