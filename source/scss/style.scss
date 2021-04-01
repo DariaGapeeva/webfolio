@@ -281,15 +281,23 @@ body {
   &__row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
+    @media (max-width: $md2+px) {
+      justify-content: space-between;
+    }
     @media (max-width: $md3+px) {
-      justify-content: space-evenly;
+      justify-content: center;
     }
   }
 
   &__column {
     flex: 0 1 30%;
+    @media (max-width: $md2+px) {
+      flex: 0 1 40%;
+    }
+    @media (max-width: $md3+px) {
+      flex: 0 1 80%;
+    }
     margin: 0px 10px 30px 10px;
   }
   &__item {
