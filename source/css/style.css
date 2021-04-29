@@ -395,9 +395,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .works {
   margin-top: 50px;
-  padding: 60px 0px 80px 0;
   background-color: #fffbf5;
   color: #707070;
+}
+
+.works_last {
+  padding: 0px 0px 50px 0;
+}
+
+.works__h3 {
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 22.5px;
+  margin-bottom: 25px;
 }
 
 .works__row {
